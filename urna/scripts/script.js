@@ -8,7 +8,22 @@ let numeros = document.querySelector('.d-1-3');
 
 
 //variaveis de ambiente
+let etapaAtual = 0;
 
+//funcao para exibir etapa - começar etapa
+
+
+function comecarEtapa() {
+    let etapa = etapas[etapaAtual];
+    let numeroHtml = ' ';
+
+    seuVotoPara.style.display = 'none';
+    cargo.innerHTML = etapa.titulo;
+    descricao.innerHTML = '';
+    aviso.style.display = 'none';
+    lateral.innerHTML = '';
+    numeros.innerHTML = numeroHtml;
+}
 
 
 function clicou(n) {
@@ -26,3 +41,7 @@ function corrige() {
 function confirma() {
     alert("Clicou em  confirma");
 }
+
+
+
+comecarEtapa();
