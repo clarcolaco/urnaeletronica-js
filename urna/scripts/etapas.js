@@ -26,7 +26,7 @@ let etapas = [
             },
             {
                 numero: '54321',
-                name: 'Hanibbal',
+                name: 'Hannibal',
                 partido: 'Dos canibais',
                 fotos: [
                     { url: 'governador3.jpg', legenda: 'Governador' },

@@ -143,6 +143,7 @@ body {
 
 .d-1-image img {
     width: 100%;
+    display: flex;
 }
 
 .d-1-2 {
@@ -154,7 +155,7 @@ body {
 
 .d-1-3 {
     align-items: center;
-    display: block;
+    display: flex;
     height: 50px;
 }
 
@@ -186,5 +187,17 @@ body {
 .aviso-grande {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+
+}
+
+.aviso-gigante {
+    font-size: 70px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
