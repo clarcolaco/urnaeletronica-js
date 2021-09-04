@@ -3,33 +3,33 @@ let etapas = [
     {
 
         titulo: 'GOVERNADORES',
-        numeros: 5,
+        numeros: 4,
         candidatos: [
 
             {
-                numero: 54345,
-                name: 'Coragem',
-                partido: 'Dos medrosos',
+                numero: '12345',
+                name: 'Loki',
+                partido: 'Dos mentirosos',
                 fotos: [
-                    { url: 'candidato1.jpg', legenda: 'Presidente' },
+                    { url: 'governador1.jpg', legenda: 'Governador' },
                 ]
 
             },
             {
-                numero: 34554,
-                name: 'Coragem',
-                partido: 'Dos medrosos',
+                numero: '67890',
+                name: 'Tony Stark',
+                partido: 'Dos inteligentes',
                 fotos: [
-                    { url: 'candidato2.jpg', legenda: 'Presidente' },
+                    { url: 'governador2.png', legenda: 'Governador' },
                 ]
 
             },
             {
-                numero: 23054,
-                name: 'Coragem',
-                partido: 'Dos medrosos',
+                numero: '54321',
+                name: 'Hanibbal',
+                partido: 'Dos canibais',
                 fotos: [
-                    { url: 'candidato3.jpg', legenda: 'Presidente' },
+                    { url: 'governador3.jpg', legenda: 'Governador' },
                 ]
 
             },
@@ -41,12 +41,12 @@ let etapas = [
 
     {
 
-        titulo: 'PREFEITO',
-        numeros: 2,
+        titulo: 'PRESIDENTE',
+        numeros: 1,
         candidatos: [
 
             {
-                numero: 54,
+                numero: '10',
                 name: 'Coragem',
                 partido: 'Dos medrosos',
                 vice: 'Pateta',
@@ -59,7 +59,7 @@ let etapas = [
             },
 
             {
-                numero: 10,
+                numero: '11',
                 name: 'Steven',
                 partido: 'Dos fofos',
                 vice: 'Pipu',
@@ -72,7 +72,7 @@ let etapas = [
             },
 
             {
-                numero: 54,
+                numero: '12',
                 name: 'Lula molusco',
                 partido: 'Dos bravos',
                 vice: 'Batman',
